@@ -1,0 +1,28 @@
+.typingContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.typingTextContainer {
+    display: flex;
+    width: 50%;
+    overflow: scroll hidden;
+    border: 2px solid green;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.styledInput {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    height: 0;              /* height of horizontal scrollbar ← You're missing this */
+    width: 0;               /* width of vertical scrollbar */
+    border: 1px solid #d5d5d5;
+  }
